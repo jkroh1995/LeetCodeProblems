@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        RomanToInteger romanToInteger = new RomanToInteger();
-        System.out.println(romanToInteger.romanToInt("III"));
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        System.out.println(longestCommonPrefix.longestCommonPrefix(new String[] {"ab", "flow","flight"}));
     }
 }
